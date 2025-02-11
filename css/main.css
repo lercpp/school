@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman';
+    font-weight: 900;
+    color:#f5f8fc;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 50%;
+}
+
+.wapper{
+    background: rgb(34, 25, 133);
+    background: linear-gradient(90deg, rgb(45, 37, 131) 0%, rgb(88, 107, 209) 46%, rgb(37, 34, 136) 100%);
+    width: 100%;
+}
+
+.contenet {
+    width: 1400px;
+    margin:0 auto;
+}
+
+header {
+    padding: 50px 0px;
+}
+
+head.logo  {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.wapper .content img{
+    width: 10%;
+    height: 10%;
+    margin-top: 8px;
+}
+
+.wapper div {
+    margin-top: 8px;
+    margin-left: 6px;
+    white-space: 9;
+    margin-left: 8px;
+}
+header span {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    width: 40%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    margin-right:80px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+   color: #ffffff;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero--info {
+    width: 530px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.wapper .hero--info{
+    background: #dbcfcf;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.hero--info h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(209, 53, 53);
+    margin-top: 10px;
+}
+
+.hero--info h3 {
+    font-size: 20px;
+    font-weight: 10;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: black;
+    text-indent: 30px;
+    z-index: 1;
+}
+
+.hero--info h4 {
+    color: #dbcfcf;
+}
+
+.hero--info img {
+    z-index: 2;
+    margin-right: 20px;
+    float: right;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.wapper .hero--game {
+    background: #c4cdd8;
+    border-radius: 10px;
+    height: 40px;
+    margin-right: 90px;
+}
+.hero--game ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: rgb(236, 225, 225);
+}
+
+header nav ul li.active::after{
+    content: '';
+    display: block;
+    width: 72px;
+    height: 5px;
+    background: #c70e0e;
+    border-radius: 9px;
+    position: relative;
+    top: 3px;
+    left:1px;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px ;
+    border-radius: 10px;
+    top:5px;
+    height: 2px;
+    transform: scale(1.1)
+}
+
+div ul li a {
+    color: rgb(206, 36, 36);
+}
+
+/*div ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px ;
+    border-radius: 10px;
+    top:5px;
+    position: relative;
+    height: 5px;
+}*/
+
+div ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.wapper.logot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.logot-nan {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+}
+
+.logot-nan input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0de3b;
+    transition: 0.4s;
+    border-radius: 44px;
+    width: 80px;
+    height: 44px;
+}
+
+.slider:hover {
+    box-shadow: 0 0 20px rgb(255, 243, 69);
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 36px;
+    height: 36px;
+    width: 36px;
+    left: 4px;
+    bottom: 4px;
+    background-image:url(https://avatars.mds.yandex.net/i?id=8d75985ca816c7c236e1125d52d3dff3b81d39ec-8184004-images-thumbs&n=13) ;
+    transition: 0.4s;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+input:checked+ .slider{
+    background-color: #1d0b4d;
+}
+
+input:checked + .slider:hover {
+    box-shadow: 0 0 20px #ffffff;
+}
+
+input:checked + .slider:before {
+    transform: translateX(36px);
+    background-image: url(https://avatars.mds.yandex.net/i?id=b7fc58dbff394dfee402ad292f1375fe3c271d7e-10727469-images-thumbs&n=13);
+    background-size: cover;
+}
+
+.logot-nan {
+    background: #1d0b4d;
+}
+
+.wapper .tel {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.577468487394958) 0%, rgba(69,16,112,1) 12%, rgba(69,16,112,1) 90%, rgba(255,255,255,0.5550595238095238) 100%);
+}
+
+
+.conteiner {
+    width: 950px;
+    height: 600px ;
+    background-image: url(https://sdelanounas.ru/i/c/3/v/c3VuMS05OC51c2VyYXBpLmNvbS9pbXBnL1hsQjB3ZGpDeUFvOWMxN3A5VkMza0tjamt4TDU2Uk9qWTR2OEhRL014Y0pnZXFJYzBJLmpwZz9fX2lkPTE0ODA2NCZzaXplPTEyODB4ODUzJnF1YWxpdHk9OTUmc2lnbj0wNzhlYzE5ZGI1MWZmYWM1OWRhYzcxNjJmYmRhZGZjNCZ0eXBlPWFsYnVt.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider,
+.item,
+.button {
+    position: absolute;
+    inset: 0;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    animation: scale 1s cubic-bezier(.85, 0, .15, 1);
+    border-radius: 10px;
+}
+
+@keyframes scale {
+  0% {
+    opacity: 0;
+    transform: scale(1.05)
+    } 
+    50%{
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.name {
+    position:absolute;
+    top: 50px;
+    left: 55px;
+    color: #c70e0e;
+}
+
+h1,
+h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: expand 2s ease-in-out forwards;
+    width: 0;
+}
+
+h2 {
+    letter-spacing: 5rem;
+    font-size:1.1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #f0de3b;
+}
+
+@keyframes expand {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 200%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 0 35px;
+}
+
+button {
+    width: 76px;
+    height: 28px;
+    color: chocolate;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: #c70e0e;
+}
+
+.prev:hover {
+    transform: translateX(-10px);
+}
+
+.next:hover {
+    transform: translateX(10px);
+}
