@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) =>{
+/*document.addEventListener('DOMContentLoaded', (event) =>{
     const checkbox = document.getElementById('checkbox');
     const body = document.body;
     checkbox.addEventListener('change',() =>{
@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', (event) =>{
             body.classList.add('light-mode');
         }
     });
+    
     body.classList.add('light-mode')
 });
 const list= [
@@ -52,3 +53,5 @@ prev.addEventListener(
         update();
     },
 );
+*/
+
