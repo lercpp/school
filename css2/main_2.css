@@ -159,6 +159,7 @@ div ul li:hover {
   }
    
   .card h3 {
+    align-items: center;
     margin-top: 16px;
     margin-bottom: 8px;
     color: #2c1e7e;
@@ -166,4 +167,8 @@ div ul li:hover {
    
   .card p {
     color: #381e7e;
+  }
+
+  .oke h1{
+    align-items: center;
   }
