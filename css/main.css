@@ -471,7 +471,7 @@ button:hover {
 .school_photo {
     width: 80%;
 }
-
+/*
 #slider {
     position: relative;
     text-align: center;
@@ -603,7 +603,7 @@ label, a {
 #controls label{
     transition: opacity 0.2s ease-out;
 }
-
+*/
 .mesto {
     background: rgb(34, 25, 133);
     background: linear-gradient(90deg, rgb(45, 37, 131) 0%, rgb(88, 107, 209) 46%, rgb(37, 34, 136) 100%);
@@ -664,4 +664,13 @@ label, a {
 input{
     color: #0e0529;
     border-radius: 10px;
+}
+
+#slider {
+    width: 600px;
+    height: 300px;
+}
+
+#items img {
+    float: left;
 }
