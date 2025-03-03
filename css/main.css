@@ -674,3 +674,24 @@ input{
 #items img {
     float: left;
 }
+
+footer{
+    background: #0e0529;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: #0e0529;
+}

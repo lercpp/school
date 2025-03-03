@@ -140,7 +140,7 @@ div ul li:hover {
     justify-content: center;
     gap: 16px;
     padding: 10px;
-  }
+}
    
   .card {
     background-color: #e9e3e3;
@@ -150,20 +150,41 @@ div ul li:hover {
     overflow: hidden;
     padding: 10px;
     margin-top: 5px;
-  }
+}
    
   .card img {
     width: 800px;
     height: 100px;
     position: relative;
-  }
+}
    
   .card h3 {
     margin-top: 16px;
     margin-bottom: 8px;
     color: #2c1e7e;
-  }
+}
    
   .card p {
     color: #381e7e;
-  }
+}
+
+  footer{
+    background: #0e0529;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: #0e0529;
+}
