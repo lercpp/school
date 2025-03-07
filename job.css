@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman';
+    font-weight: 900;
+    color:#f5f8fc;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 50%;
+}
+
+.wapper{
+    background: rgb(34, 25, 133);
+    background: linear-gradient(90deg, rgb(45, 37, 131) 0%, rgb(88, 107, 209) 46%, rgb(37, 34, 136) 100%);
+    width: 100%;
+}
+
+.contenet {
+    width: 1400px;
+    margin:0 auto;
+}
+
+header {
+    padding: 50px 0px;
+}
+
+head.logo  {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.wapper .content img{
+    width: 10%;
+    height: 10%;
+    margin-top: 8px;
+}
+
+.wapper div {
+    margin-top: 8px;
+    margin-left: 6px;
+    white-space: 9;
+    margin-left: 8px;
+}
+header span {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    width: 40%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    margin-right:80px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+   color: #ffffff;
+}
+
+.hero--game ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: rgb(236, 225, 225);
+}
+
+header nav ul li.active::after{
+    content: '';
+    display: block;
+    width: 90px;
+    height: 5px;
+    background: #c70e0e;
+    border-radius: 9px;
+    position: relative;
+    top: 3px;
+    left:1px;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px ;
+    border-radius: 10px;
+    top:5px;
+    height: 2px;
+    transform: scale(1.1)
+}
+
+div ul li a {
+    color: rgb(206, 36, 36);
+}
+
+div ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.wapper img{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+  }
+   
+  .card {
+    background-color: #e9e3e3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 5px;
+  }
+   
+  .card img {
+    width: 800px;
+    height: 100px;
+    position: relative;
+  }
+   
+  .card h3 {
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #2c1e7e;
+  }
+   
+  .card p {
+    color: #381e7e;
+  }
+
+  .oke h1{
+    align-items: center;
+  }
+
+  footer{
+    background: #0e0529;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: #0e0529;
+}
