@@ -103,7 +103,7 @@ header nav ul li a {
 header nav ul li.active::after{
     content: '';
     display: block;
-    width: 95px;
+    width: 90px;
     height: 5px;
     background: #c70e0e;
     border-radius: 9px;
@@ -129,49 +129,49 @@ div ul li:hover {
     transform: scale(1.1)
 }
 
-.wapper img{
-    margin-left: 20px;
+.govno img{
+    margin-left: 60px;
     border-radius: 10px;
+    margin-bottom: 9px;
+    margin-top: 5px;
 }
 
-.wapper p{
-    margin-top: 3px;
-    margin-left: 2px;
+.fon{
+    background: #4427af;
 }
 
+
+.govno h2 span{
+    color: #db110a;
+    background: #e0e7f1;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+  }
+   
 .contacts p{
-    color: rgb(9, 40, 124);
+    color: rgb(173, 190, 238);
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    padding: 20px;
-    font-size: x-large;
-}
-
-.info{
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(166,218,216,1) 100%);
-    border-radius: 50px;
-}
-
-.otvet p{
-    color: rgb(9, 40, 124);
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 5px; 
     font-size: large;
 }
 
-.obrashenie h1{
-    background-color: #c70e0e;
-    border-radius: 5px;
-    background-position: 20px 50%;
-    background-repeat: no-repeat;
+.info{
+    background: rgb(59, 82, 201);
+    border-radius: 20px;
 }
 
 .obrashenie h3{
-    margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 70px;
 }

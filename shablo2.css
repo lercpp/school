@@ -50,10 +50,6 @@ head.logo  {
     white-space: 9;
     margin-left: 8px;
 }
-header span {
-    margin-left: 50px;
-    margin-top: 10px;
-}
 
 header nav {
     float: right;
@@ -64,7 +60,6 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    z-index: 2;
     position: relative;
     margin-right:80px;
 }
@@ -77,11 +72,20 @@ header nav ul li a {
    color: #ffffff;
 }
 
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--game {
+    border-radius: 10px;
+    height: 40px;
+    margin-right: 90px;
+}
 .hero--game ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    z-index: 2;
     position: relative;
     margin-top: 50px;
     margin-left: 10px;
@@ -97,15 +101,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: rgb(236, 225, 225);
+    color: #c70e0e(192, 24, 24);
 }
 
 header nav ul li.active::after{
     content: '';
     display: block;
-    width: 140px;
+    width: 72px;
     height: 5px;
-    background: #c70e0e;
     border-radius: 9px;
     position: relative;
     top: 3px;
@@ -124,12 +127,62 @@ div ul li a {
     color: rgb(206, 36, 36);
 }
 
+div ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px ;
+    border-radius: 10px;
+    top:5px;
+    position: relative;
+    height: 5px;
+}
+
 div ul li:hover {
     cursor: pointer;
     transform: scale(1.1)
 }
 
-.wapper img{
-    margin-left: 20px;
+/*попытка исправить это ничтожество*/
+.game-container{
+    color: #b0c5df;
+    background: #0e3c92;
     border-radius: 10px;
+}/*отчаяные попытки закончились*/
+
+footer{
+    background: #0e0529;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: #0e0529;
+}
+
+.govno h3 span{
+    color: #db110a;
+    background: #e0e7f1;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.govno img{
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 9px;
+}
+
+.fon{
+    background: #4427af;
 }

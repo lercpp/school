@@ -13,12 +13,17 @@
 
 .info-foto h3{
     margin-top: -270;
-    margin-left: 730px;
+    margin-left: 480px;
     margin-bottom: 10px;
 }
 
 .info-foto img{
     margin-top: 20px;
+    border-radius: 20px;
+}
+
+.info img{
+    border-radius: 20px;
 }
 
 .podrobno p{
@@ -51,8 +56,4 @@ footer h5{
 .iii p {
     color: #235f86;
     margin-top: 150px;
-}
-
-.info img{
-    border-radius: 20px;
 }

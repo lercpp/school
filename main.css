@@ -257,10 +257,6 @@ div ul li:hover {
 }
 
 /*попытка исправить это ничтожество*/
-.logo p {
-    color: #c70e0e;
-}
-
 .game-container{
     color: #b0c5df;
     background: #0e3c92;
@@ -319,19 +315,19 @@ footer h5{
     color: #0e0529;
 }
 
-.govno h3 span{
-    color: #c70e0e;
+.govno h2 span{
+    color: #db110a;
     background: #e0e7f1;
     border-radius: 15px;
     padding: 5px;
-    margin-left: 62px;
+    margin-left: 50px;
 }
 
-.logo img{
+.govno img{
     border-radius: 10px;
-    margin-top: -50px;
+    margin-top: 5px;
     margin-left: 60px;
-    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 .main_page img{
@@ -348,6 +344,105 @@ footer h5{
 }
 
 .fon{
-    background: #3e4aad;
+    background: #4427af;
 }
 
+.feedback-form-container {
+    width: 80%; /* Ширина формы */
+    max-width: 600px; /* Максимальная ширина */
+    margin: 20px auto; /* Центрирование по горизонтали и отступ сверху/снизу */
+    font-family: sans-serif;
+    padding: 30px;
+    border: 5px solid #e0dbfc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Легкая тень */
+ }
+  
+  .feedback-form-container h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #e0dbfc;
+  }
+  
+  .feedback-form-container p {
+    font-size: 1.1em;
+    color: #e0dbfc;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #e0dbfc;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #e0dbfc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: sans-serif;
+    box-sizing: border-box; /* Важно, чтобы padding не влиял на ширину */
+    transition: border-color 0.2s ease-in-out; /* Плавный переход цвета границы */
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    border-color: #4e4c91; /* Цвет при фокусе */
+    outline: none; /* Убираем стандартную обводку при фокусе */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Мягкая тень при фокусе */
+  }
+  
+  #feedback-form button[type="submit"] {
+    background-color: #4e4c91;
+    color: #e0dbfc;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Плавный переход цвета фона */
+  }
+  
+  #feedback-form button[type="submit"]:hover {
+    background-color: #3e3c80;
+  }
+
+  .feedback-form-container{
+    background: #7e9ae6;
+  }
+
+  .mesto button{
+    transition: border-color 0.2s ease-in-out; 
+  }
+
+  .mesto button:hover {
+    background-color: #9b0601;
+    transform: scale(1.1);
+  }
+
+  .hi button{
+    transition: border-color 0.2s ease-in-out;
+  }
+
+  .hi button:hover{
+    transform: scale(1.1);
+  }
+
+  .knopka button{
+    transition: border-color 0.2s ease-in-out;
+  }
+
+  .knopka button:hover{
+    transform: scale(1.1);
+  }

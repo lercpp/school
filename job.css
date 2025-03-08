@@ -129,9 +129,24 @@ div ul li:hover {
     transform: scale(1.1)
 }
 
-.wapper img{
-    margin-left: 20px;
+.govno img{
+    margin-left: 60px;
     border-radius: 10px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+
+.fon{
+    background: #4427af;
+}
+
+
+.govno h3 span{
+    color: #db110a;
+    background: #e0e7f1;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 50px;
 }
 
 .card-container {
@@ -146,7 +161,7 @@ div ul li:hover {
     background-color: #e9e3e3;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 180px;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     padding: 10px;
     margin-top: 5px;
@@ -156,6 +171,8 @@ div ul li:hover {
     width: 800px;
     height: 100px;
     position: relative;
+    border-radius: 10px;
+    margin-left: 45px;
   }
    
   .card h3 {
@@ -167,10 +184,12 @@ div ul li:hover {
    
   .card p {
     color: #381e7e;
+    margin-left: 50px;
   }
 
   .oke h1{
-    align-items: center;
+    margin-top: 40px;
+    margin-left: 450px;
   }
 
   footer{
@@ -192,4 +211,21 @@ footer p{
 footer h5{
     margin-top: 20px;
     color: #0e0529;
+}
+
+.foto img{
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.foto{
+    background: #2c1e7e;
+}
+
+.motivash img{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 600px;
 }
