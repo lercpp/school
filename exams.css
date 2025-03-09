@@ -18,3 +18,17 @@ footer h5{
     margin-top: 20px;
     color: #0e0529;
 }
+
+.wapper{
+    background: #bacfdf;
+}
+
+header{
+    background: #70a8d3;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
