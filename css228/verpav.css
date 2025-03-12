@@ -1,0 +1,60 @@
+
+.info{
+    background: #235f86;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.info-foto h1{
+    margin-top: -320px;
+    margin-left: 500px;
+}
+
+.info-foto h3{
+    margin-top: -270;
+    margin-left: 480px;
+    margin-bottom: 10px;
+}
+
+.info-foto img{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.info img{
+    border-radius: 20px;
+}
+
+.podrobno p{
+    margin-left: 500px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+footer{
+    background: #0e0529;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: #0e0529;
+}
+
+.iii p {
+    color: #235f86;
+    margin-top: 150px;
+}

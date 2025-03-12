@@ -1,0 +1,38 @@
+footer{
+    background: #0e0529;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: #0e0529;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+.content ul li {
+    margin-right: 10px; 
+}
+
+.content ul li a p{
+    font-size: 3px;
+    padding: 3px 3px;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+
