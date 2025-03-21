@@ -52,12 +52,6 @@ img {
     margin-left: 90px;
 }
 
-.neew img{
-    width: 440px;
-    height: 500px;
-    margin-left: 90px;
-}
-
 .ik img{
     width: 100%;
     height: 100%;
@@ -82,4 +76,66 @@ footer p{
 footer h5{
     margin-top: 20px;
     color: #07300b;
+}
+
+.wapper h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(203, 230, 211);
+}
+
+.wapper h3{
+    text-align: center;
+    color: rgb(203, 230, 211);
+}
+
+.wapper p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(203, 230, 211);
+}
+
+.pon{
+    background-color: rgb(111, 179, 110);
+    border-radius: 80px;
+}
+
+.new img{
+    margin: auto;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.wapper button{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    background: #3e994d;
+}
+
+.wapper button a{
+    color: aliceblue;
+}
+
+.new h1{
+    border-bottom: solid rgb(201, 211, 203);
+    margin-bottom: 20px;
+}
+
+.new ul a{
+    background: #a9e1b3;
+    color: #3e994d;
+    padding: 2px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.new nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
