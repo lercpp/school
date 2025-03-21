@@ -1,5 +1,5 @@
 footer{
-    background: #0e0529;
+    background: #767185;
 }
 footer img{
     width: 30px;
@@ -16,7 +16,7 @@ footer p{
 
 footer h5{
     margin-top: 20px;
-    color: #0e0529;
+    color: #767185;
 }
 
 .content ul {
@@ -36,3 +36,27 @@ footer h5{
     margin-left: 100px;
 }
 
+.content{
+    background: #767185;
+}
+
+.wapper{
+    background: #b5b0c4;
+}
+
+.wapper button a{
+    color: aliceblue;
+}
+
+.wapper button{
+    border:  none;
+    border-radius: 20px;
+    background: #595565;
+    padding: 5px 20px;
+    width: 10%;
+    height: 3%;
+}
+
+.wapper button p{
+    text-align: center;
+}
