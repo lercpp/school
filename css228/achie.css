@@ -18,3 +18,60 @@ footer h5{
     margin-top: 20px;
     color: #0e0529;
 }
+
+.card-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+  }
+   
+  .card {
+    background-color: #e9e3e3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 5px;
+  }
+   
+  .card img {
+    width: 800px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 45px;
+  }
+   
+  .card h3 {
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #2c1e7e;
+  }
+   
+  .card p {
+    color: #381e7e;
+    margin-left: 50px;
+  }
+  
+  .oke h1{
+    text-align: center;
+  }
+
+  .oke{
+    background: #ca2b23;
+  }
+
+  .card-container{
+    background: #4934bf;
+  }
+
+  .card {
+    display: flex;          
+    flex-direction: row;   
+    justify-content: space-around; 
+    align-items: stretch;  
+  }
